@@ -23,11 +23,11 @@ The goal was to make sure the entire process happened automatically on each code
 ## Validation
 - Checked that the workflow completed successfully under the GitHub **Actions** tab.  
 - Verified the image appeared on Docker Hub with the correct tag.  
-- Pulled the image locally using:  
-  \`\`\`bash
-  docker pull username/repository:tag
-  docker run -d -p 5000:5000 username/repository:tag
-  \`\`\`  
+Pulled the image locally using:
+```bash
+docker pull username/repository:tag
+docker run -d -p 5000:5000 username/repository:tag
+```
 - Accessed the app on \`http://localhost:5000\` to confirm it was running correctly.
 
 ## Summary
